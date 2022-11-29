@@ -1,0 +1,48 @@
+.DetailContainer{
+    width: 15vw;
+    height: 12vh;
+    padding: 2vh 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    cursor: pointer;
+}
+.InfoContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.InfoTitle{
+    font-size: 13px;
+    font-weight: 600;
+}
+.DataContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.dataText{
+    font-size: 25px;
+    font-weight: 500;
+}
+.dataPercent{
+    font-size: 14px;
+}
+@media only screen and (max-width: 576px) {
+    .DetailContainer{
+        width: 80vw;
+        height: 10vw;
+        border-radius: 1vw;
+        gap: 1vh;
+    }
+    .InfoContainer{
+        margin: 0 1.5vh;
+    }
+    .DataContainer{
+        margin: 0 1.5vh;
+    }
+    .dataText{
+        font-size: 25px;
+        font-weight: 500;
+    }
+}

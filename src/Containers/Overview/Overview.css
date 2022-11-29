@@ -1,0 +1,22 @@
+.Overview{
+    margin: 2vh 0;
+}
+.OverviewTitle{
+    font-size: 24px;
+    font-weight: 500;
+}
+.OverviewContainer{
+    display: grid;
+    grid-template-columns: repeat(4, 20.3vw);
+    grid-auto-rows: minmax(20vh, auto);
+    margin-top: 2vh;
+}
+@media only screen and (max-width: 576px) {
+    .OverviewContainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
