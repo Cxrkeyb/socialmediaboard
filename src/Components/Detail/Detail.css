@@ -31,7 +31,7 @@
 @media only screen and (max-width: 576px) {
     .DetailContainer{
         width: 80vw;
-        height: 10vw;
+        height: 15vw;
         border-radius: 1vw;
         gap: 1vh;
     }
